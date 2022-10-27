@@ -1,7 +1,7 @@
 # NYC_Parking_Tickets
 ## Overview
 
-This analysis will use machine learning to look closely at parking tickets for New York City in the year 2017. This data was chosen based off of how versatile and multifacted it is. Data was produced by NYC Department of Finance. Using random foresting, we plan to identify any patterns. </br>
+This analysis will use machine learning to look closely at parking tickets for New York City in the year 2017. The data was chosen based off of how versatile and multifacted it is. Data was produced by NYC Department of Finance. Using random foresting, we plan to identify any patterns or biases. </br>
 </br>
 **Possible Questions/Trends**
 1. Correlation to type (commercial/passenger)
