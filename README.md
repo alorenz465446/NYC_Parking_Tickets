@@ -16,7 +16,7 @@ This analysis uses machine learning to look closely at parking tickets handed ou
 
 ### Resources 
 
-•	PANDAS
+* Pandas
 * Tableau 
 
 
