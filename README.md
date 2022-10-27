@@ -11,7 +11,7 @@ This analysis will use machine learning to look closely at parking tickets for N
 5. Trend in date (EOM press)
 6. Correlation to weather
 
-Will communicate with team on weekly Zoom meetings and group message on Slack.
+Will communicate with team on weekly Zoom meetings and group chat on Slack.
 
 ## Results
 
