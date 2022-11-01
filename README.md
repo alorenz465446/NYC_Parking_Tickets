@@ -25,7 +25,7 @@ The team will communicate with team on weekly Zoom meetings and group chat on Sl
 ## Summary 
 
 ### Resources 
-* Google Colab
-* Pandas
-* Tableau 
+* Google Colab - we are currently using Google Colab to write all the code.
+* Pandas - Pandas is used to read the files in Google colab.
+* Tableau - Tableau will be used to create the dashboard and analyze the data visually. 
 
