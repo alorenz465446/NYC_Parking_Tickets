@@ -1,24 +1,31 @@
 # NYC_Parking_Tickets
 ## Overview
 
-This analysis will use machine learning to look closely at parking tickets for New York City in the year 2017. The data was chosen based off of how versatile and multifacted it is. Data was produced by NYC Department of Finance. Using random foresting, we plan to identify any patterns or biases. </br>
+This analysis will use machine learning to look closely at parking tickets for New York City in the year 2017. The data was chosen based off of how versatile and multifacted it is. Data was produced by NYC Department of Finance. Using random foresting, we plan to identify correlations and create neural network to identify patterns. </br>
 </br>
-**Possible Questions/Trends**
-1. Correlation to type (commercial/passenger)
-2. Correlation to body style (sedan/SUV/truck/sport/etc.)
-3. Correlation to age of vehicle
-4. Correlation to color of vehicle
-5. Trend in date (EOM press)
-6. Correlation to weather
 
-Will communicate with team on weekly Zoom meetings and group chat on Slack.
+**Predictions**
+1. Lighter passenger vehicles get more tickets
+2. Older vehicles in higher income areas get more tickets 
+3. Larger sized vehicles get more tickets 
+
+</br>
+
+The team will communicate with team on weekly Zoom meetings and group chat on Slack.
+</br>
+
+## Our game plan 
+![ERD final](https://user-images.githubusercontent.com/107652317/199361261-3be00635-7b81-46d9-9935-4ed6c3383c8d.png)
+
+
+
 
 ## Results
 
 ## Summary 
 
 ### Resources 
-
+* Google Colab
 * Pandas
 * Tableau 
 
