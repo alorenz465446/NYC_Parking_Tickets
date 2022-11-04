@@ -13,6 +13,8 @@
 2. Older vehicles in higher income areas get more tickets 
 3. Larger sized vehicles get more tickets 
 
+![NYC_Tickets](NYC_ERD.png)
+
 </br>
 
 
