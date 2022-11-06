@@ -1,48 +1,30 @@
 # NYC_Parking_Tickets
 ## Overview
 
-This analysis will use machine learning to look closely at parking tickets for New York City in the year 2017. The data was chosen based off of how versatile and multifacted it is. Data was produced by NYC Department of Finance. Using random foresting, we plan to identify any patterns or biases. </br>
+* New York City parking violations from the whole year of 2017
+* Data was produced by NYC Department of Finance
+* The data was chosen based off of how versatile and multifacted it is
+* Using random foresting, we plan to identify correlations and create neural network to identify patterns
+* Team will communicate weekly on Zoom meetings and group chat on Slack
+
+
+**Predictions**
+1. Lighter passenger vehicles get more tickets
+2. Older vehicles in higher income areas get more tickets 
+3. Larger sized vehicles get more tickets 
+
+![NYC_Tickets](NYC_ERD.png)
+
 </br>
-**Possible Questions/Trends**
-1. Correlation to type (commercial/passenger)
-2. Correlation to body style (sedan/SUV/truck/sport/etc.)
-3. Correlation to age of vehicle
-4. Correlation to color of vehicle
-5. Trend in date (EOM press)
-6. Correlation to weather
+
+
 
 ## Results
 
 ## Summary 
 
 ### Resources 
-
-* Pandas
-* Tableau 
-
-
-
-
-# Columns to Keep
-
-Vehicle Body
-Vehicle Age 
-Plate Type
-Issue Date
-Violation Code
-Vehicle Body Type
-Vehicle Make
-Issuing Agency
-Violation Location
-Violation Precinct
-Issuer Precinct
-Issuer Code
-Issuer Command
-Violation Time
-Violation County
-Street Name
-Law Section
-Sub Division
-Vehicle Color
-Vehicle Year
+* Google Colab - we are currently using Google Colab to write all the code.
+* Pandas - Pandas is used to read the files in Google colab.
+* Tableau - Tableau will be used to create the dashboard and analyze the data visually. 
 
