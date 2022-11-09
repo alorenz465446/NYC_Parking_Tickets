@@ -1,35 +1,27 @@
-BEGIN;
-
-
-CREATE TABLE IF NOT EXISTS public."Area"
+CREATE TABLE IF NOT EXISTS "Area"
 (
-    "Vehicle_Year" integer,
-    "Violation_County" character varying COLLATE pg_catalog."default"
-)
-WITH (
-    OIDS = FALSE
+    Vehicle_Year integer,
+    Violation_County character varying NOT NULL
+
 );
 
-CREATE TABLE IF NOT EXISTS public."Vehicle Description"
+CREATE TABLE IF NOT EXISTS "Vehicle Description"
 (
-    "Plate_Type" character varying COLLATE pg_catalog."default" NOT NULL,
-    "Vehicle_Body_Type" character varying COLLATE pg_catalog."default",
-    "Vehicle_Color" character varying COLLATE pg_catalog."default",
-    "Vehicle_Year" integer,
-    CONSTRAINT "Vehicle Description_pkey" PRIMARY KEY ("Plate_Type")
-)
-WITH (
-    OIDS = FALSE
+    "Plate_Type" character varying NOT NULL,
+    "Vehicle_Body_Type" character varying NOT NULL,
+    "Vehicle_Color" character varying NOT NULL,
+    "Vehicle_Year" integer
+     
+
 );
 
-CREATE TABLE IF NOT EXISTS public."Violations"
+CREATE TABLE IF NOT EXISTS "Violations"
 (
-    "Plate_Type" character varying COLLATE pg_catalog."default",
+    "Plate_Type" character varying NOT NULL,
     "Violation_Code" integer,
-    "Violation_Time" character varying,
-    "Violation_County" character varying COLLATE pg_catalog."default"
-)
-WITH (
-    OIDS = FALSE
+    "Violation_Time" character varying NOT NULL,
+    "Violation_County" character varying NOT NULL
+	
+
 );
 END;
