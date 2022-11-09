@@ -17,7 +17,8 @@
 
 </br>
 
-
+# Link to Slides
+https://docs.google.com/presentation/d/1ABV8zML5IUWkjDon-CexeNSiZA5Zqblzs9vv-W5tjfs/edit#slide=id.p
 
 ## Results
 
@@ -25,6 +26,7 @@
 
 ### Resources 
 * Google Colab - we are currently using Google Colab to write all the code.
+* Google Slides - this is used to create our presentation.
 * Pandas - Pandas is used to read the files in Google colab.
 * Tableau - Tableau will be used to create the dashboard and analyze the data visually. 
 
