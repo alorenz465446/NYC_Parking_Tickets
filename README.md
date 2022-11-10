@@ -1,4 +1,4 @@
-![NYC_Tickets](Resources/NYC_Header.xcf)
+![NYC_Tickets](/Resources/NYC_Header.jpg)
 # Overview
 
 ## Data 
