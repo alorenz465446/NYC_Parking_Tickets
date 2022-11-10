@@ -1,0 +1,27 @@
+CREATE TABLE IF NOT EXISTS "Area"
+(
+    Vehicle_Year integer,
+    Violation_County character varying NOT NULL
+
+);
+
+CREATE TABLE IF NOT EXISTS "Vehicle Description"
+(
+    "Plate_Type" character varying NOT NULL,
+    "Vehicle_Body_Type" character varying NOT NULL,
+    "Vehicle_Color" character varying NOT NULL,
+    "Vehicle_Year" integer
+     
+
+);
+
+CREATE TABLE IF NOT EXISTS "Violations"
+(
+    "Plate_Type" character varying NOT NULL,
+    "Violation_Code" integer,
+    "Violation_Time" character varying NOT NULL,
+    "Violation_County" character varying NOT NULL
+	
+
+);
+END;
