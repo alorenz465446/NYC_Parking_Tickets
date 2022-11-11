@@ -1,27 +1,59 @@
 CREATE TABLE IF NOT EXISTS "Area"
 (
-    Vehicle_Year integer,
+    Vehicle_Id integer,
+	Vehicle_Year integer,
     Violation_County character varying NOT NULL
 
 );
 
 CREATE TABLE IF NOT EXISTS "Vehicle Description"
 (
-    "Plate_Type" character varying NOT NULL,
-    "Vehicle_Body_Type" character varying NOT NULL,
-    "Vehicle_Color" character varying NOT NULL,
-    "Vehicle_Year" integer
+	Vehicle_Id integer,
+    Plate_Type character varying NOT NULL,
+    Vehicle_Body_Type character varying NOT NULL,
+    Vehicle_Color character varying NOT NULL,
+    Vehicle_Year integer
      
 
 );
 
 CREATE TABLE IF NOT EXISTS "Violations"
 (
-    "Plate_Type" character varying NOT NULL,
-    "Violation_Code" integer,
-    "Violation_Time" character varying NOT NULL,
-    "Violation_County" character varying NOT NULL
+	Vehicle_Id integer,
+    Plate_Type character varying NOT NULL,
+    Violation_Code integer,
+    Violation_Time character varying NOT NULL,
+    Violation_County character varying NOT NULL
 	
 
 );
 END;
+
+
+-- Perform an INNER JOIN on the two tables
+
+SELECT vd.Vehicle_Id, 
+vd.Plate_Type,
+vd.Vehicle_Body_Type, 
+vd.vehicle_color, 
+vd.Vehicle_Year,
+v.Violation_Code,
+v.Violation_Time,
+v.Violation_County
+FROM "Vehicle Description" as vd
+JOIN "Violations" as v 
+ON v.Vehicle_ID = vd.Vehicle_Id
+
+
+
+-- Table Query 
+SELECT * FROM "Vehicle Description"; 
+SELECT * FROM "Violations";
+SELECT * FROM "Area";
+-- Table Row Counts
+SELECT COUNT (*) FROM "Vehicle Description";
+SELECT COUNT (*) FROM "Violations";
+
+
+
+
