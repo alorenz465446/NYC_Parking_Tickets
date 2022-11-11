@@ -23,7 +23,9 @@
 3. Larger sized vehicles get more tickets 
 
 ![NYC_Tickets](/Resources/ERD_SEG2.png)
-
+</br>
+## The Databases Inner Join
+![NYC_Tickets](/Resources/NYC_InnerJoin.png)
 </br>
 
 # Link to Slides
