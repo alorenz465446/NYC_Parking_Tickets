@@ -29,6 +29,9 @@
 # Link to Slides
 https://docs.google.com/presentation/d/1ABV8zML5IUWkjDon-CexeNSiZA5Zqblzs9vv-W5tjfs/edit#slide=id.p
 
+# Link to 
+https://public.tableau.com/views/NYC_Parking_Tickets/Story1?:language=en-US&:display_count=n&:origin=viz_share_link
+
 ### Resources 
 * Google Colab - we are currently using Google Colab to write all the code.
 * Google Slides - this is used to create our presentation.
