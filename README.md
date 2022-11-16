@@ -11,17 +11,15 @@
 ## The Machine Learning Model
 
 * Using a neaural network, we plan to identify correlations to identify patterns
-
-## Communication Protocols
-* Team will communicate weekly on Zoom meetings and group chat on Slack
+* We started with a random forest and ended up changing the model (problem with accuracy score)
 
 
 ## Predictions
 
-1. Lighter passenger vehicles get more tickets
-2. Older vehicles in higher income areas get more tickets 
-3. Larger sized vehicles get more tickets 
+* Brighter vehicles get more tickets than duller colored cars 
+* Lower income boroughs recieve more tickets than higher income boroughs 
 
+## Database ERD
 ![NYC_Tickets](/Resources/ERD_SEG2.png)
 </br>
 ## The Databases Inner Join
