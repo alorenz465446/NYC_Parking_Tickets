@@ -8,9 +8,9 @@
 * Data was produced by NYC Department of Finance
 * The data was chosen based off of how versatile and multifacted it is
 
-## The Model
+## The Machine Learning Model
 
-* Using random foresting, we plan to identify correlations and create neural network to identify patterns
+* Using a neaural network, we plan to identify correlations to identify patterns
 
 ## Communication Protocols
 * Team will communicate weekly on Zoom meetings and group chat on Slack
