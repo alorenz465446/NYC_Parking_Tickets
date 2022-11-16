@@ -29,7 +29,7 @@
 # Link to Slides
 https://docs.google.com/presentation/d/1ABV8zML5IUWkjDon-CexeNSiZA5Zqblzs9vv-W5tjfs/edit#slide=id.p
 
-# Link to 
+# Link to Tableau Dashboard
 https://public.tableau.com/views/NYC_Parking_Tickets/Story1?:language=en-US&:display_count=n&:origin=viz_share_link
 
 ### Resources 
