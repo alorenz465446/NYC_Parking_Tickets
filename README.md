@@ -34,10 +34,12 @@ Converted categorical data into numerical data using one-hot-encoder.
 Used the Violation_Code column as the target variable / ‘y’
 
 Built the following network:
+
 ![Screen Shot 2022-11-17 at 11 21 28 PM](https://user-images.githubusercontent.com/107375554/202616647-296d928c-9b3f-4005-b625-53e812c32275.png)
 
 
 Unfortunately, we could not get an accuracy above 55%.
+
 ![Screen Shot 2022-11-17 at 11 20 55 PM](https://user-images.githubusercontent.com/107375554/202616664-d680507c-bc05-438d-8713-7ac1ace51796.png)
 
 
