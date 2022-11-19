@@ -59,6 +59,7 @@ The model was able to predict whether a car recieved a violation for street clea
 </br>
 ## The Databases Inner Join
 ![NYC_Tickets](/Resources/NYC_InnerJoin.png)
+![NYC_Tickets](/Resources/Vehicle_desc.png)
 </br>
 
 # Link to Slides
