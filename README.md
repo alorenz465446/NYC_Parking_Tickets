@@ -16,7 +16,7 @@ We ran a random forest model to determine whether there was a correlation. Creat
 
 ![Screen Shot 2022-11-17 at 8 35 02 PM](https://user-images.githubusercontent.com/107375554/202616400-c55cde9d-3c84-4d7b-a2f3-c9ef5ee96a6d.png)
 
-![Screen Shot 2022-11-17 at 11 21 28 PM](https://user-images.githubusercontent.com/107375554/202827594-c5d5f222-2a13-426d-8a96-1d9666daf891.png)
+![Screen Shot 2022-11-17 at 7 37 00 PM](https://user-images.githubusercontent.com/107375554/202827649-1dea37ef-72d4-4757-87b8-66f85535d7ab.png)
 
 ![Screen Shot 2022-11-17 at 7 35 51 PM](https://user-images.githubusercontent.com/107375554/202616442-7c7b26f1-3b3a-475f-8b2c-b9ef8aaa680f.png)
 
