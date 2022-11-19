@@ -28,7 +28,8 @@ Started by condensing as much information as possible. The column unique value c
 
 Before: 	
 ![Screen Shot 2022-11-17 at 10 22 13 PM](https://user-images.githubusercontent.com/107375554/202616485-c50ae944-ef97-450a-9b8a-7ecf846286e2.png)  After:
-![Screen Shot 2022-11-17 at 10 46 57 PM](https://user-images.githubusercontent.com/107375554/202616507-b32cd312-a522-4c2b-9021-9a36b0f5c3d8.png)
+![Screen Shot 2022-11-17 at 10 46 57 PM](https://user-images.githubusercontent.com/107375554/202833364-317ee5e9-820d-4774-9d0f-6ac3e33e0ac3.png)
+
 
 
 Converted categorical data into numerical data using one-hot-encoder.
@@ -40,9 +41,12 @@ Built the following network:
 ![Screen Shot 2022-11-17 at 11 21 28 PM](https://user-images.githubusercontent.com/107375554/202616647-296d928c-9b3f-4005-b625-53e812c32275.png)
 
 
-Unfortunately, we could not get an accuracy above 55%.
+Accuracy landed on 94%
 
-![Screen Shot 2022-11-17 at 11 20 55 PM](https://user-images.githubusercontent.com/107375554/202616664-d680507c-bc05-438d-8713-7ac1ace51796.png)
+<img width="570" alt="Screen Shot 2022-11-19 at 1 03 39 AM" src="https://user-images.githubusercontent.com/107375554/202837142-718765ad-0469-409d-805c-71249d2bdb2c.png">
+
+
+The model was able to predict whether a car recieved a violation for street cleaning or speeding based on features. 
 
 
 ## Predictions
