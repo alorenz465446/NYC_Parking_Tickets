@@ -8,6 +8,20 @@
 * Data was produced by NYC Department of Finance
 * The data was chosen based off of how versatile and multifacted it is
 
+## Predictions
+
+* Brighter vehicles get more tickets than duller colored cars 
+* Lower income boroughs recieve more tickets than higher income boroughs 
+
+## Database ERD
+![NYC_Tickets](/Resources/ERD_SEG2.png)
+</br>
+## The Databases Inner Join
+![NYC_Tickets](/Resources/NYC_InnerJoin.png)
+## Vehicle Description Table
+![NYC_Tickets](/Resources/Vehicle_desc.png)
+</br>
+
 ## The Machine Learning Model
 
 ### Random forest model 
@@ -49,19 +63,6 @@ Accuracy landed on 94%
 The model was able to predict whether a car recieved a violation for street cleaning or speeding based on features. 
 
 
-## Predictions
-
-* Brighter vehicles get more tickets than duller colored cars 
-* Lower income boroughs recieve more tickets than higher income boroughs 
-
-## Database ERD
-![NYC_Tickets](/Resources/ERD_SEG2.png)
-</br>
-## The Databases Inner Join
-![NYC_Tickets](/Resources/NYC_InnerJoin.png)
-## Vehicle Description Table
-![NYC_Tickets](/Resources/Vehicle_desc.png)
-</br>
 
 # Link to Slides
 https://docs.google.com/presentation/d/1ABV8zML5IUWkjDon-CexeNSiZA5Zqblzs9vv-W5tjfs/edit#slide=id.p
